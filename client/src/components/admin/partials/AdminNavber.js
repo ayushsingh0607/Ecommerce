@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { useHistory } from "react-router-dom";
+import logo from "../../../assests/21.png"
 
 const AdminNavber = (props) => {
   const history = useHistory();
@@ -40,7 +41,7 @@ const AdminNavber = (props) => {
             style={{ letterSpacing: "0.70rem" }}
             className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
           >
-            Hayroo
+            <img src={logo} alt="logo" width={'100'} height={'130'}/>
           </span>
         </div>
         {/* Small Screen Show */}
